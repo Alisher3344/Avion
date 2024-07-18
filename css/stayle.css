@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+._container_ {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.head3--p1 {
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  color: black;
+  text-align: left;
+}
+
+@media (max-width: 575px) {
+  .headera--a {
+    display: none !important;
+  }
+}
+@media (max-width: 740px) {
+  .headera--a .header--_1 {
+    gap: 20px !important;
+  }
+}
+.headera--a .header--_1 li {
+  list-style: none;
+}
+.headera--a .header--_1 li a {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: rgb(114, 110, 141);
+  text-decoration: none;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.headera--b {
+  margin-top: 20px;
+  display: none;
+}
+@media (max-width: 575px) {
+  .headera--b {
+    display: block;
+    padding-top: 100px !important;
+    padding: 0px 20px;
+  }
+}
+.headera--b li {
+  padding-top: 10px;
+  list-style: none;
+}
+.headera--b li a {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: rgb(114, 110, 141);
+  text-decoration: none;
+  margin-top: 40px;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .footer__-flex {
+    flex-direction: column !important;
+  }
+}
+.footer__-flex h4 {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  color: white;
+  text-align: left;
+}
+.footer__-flex p {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+footer h2 {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: white;
+}
