@@ -1,0 +1,80 @@
+@use "../utils/mixins" as mxn;
+.home__void {
+  margin-top: 60px;
+  .void__left {
+    @media (max-width: 642px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      padding-top: 60px;
+      @include mxn.family(Clash Display, 32px, 400, 44.8px, white);
+      text-align: left;
+      max-width: 513px;
+      padding-bottom: 41px;
+      @media (max-width: 667px) {
+        padding-bottom: 0px;
+      }
+    }
+    button {
+      padding: 16px 32px;
+      margin-bottom: 196px;
+      background: rgba(249, 249, 249, 0.15);
+      border: none;
+      color: white;
+      @media (max-width: 867px) {
+        margin-bottom: 70px;
+      }
+      @media (max-width: 667px) {
+        margin-bottom: 0px;
+        padding: 16px 100px;
+        transform: translateY(180px);
+      }
+      @media (max-width: 420px) {
+        padding: 16px 60px;
+        transform: translateY(230px);
+      }
+    }
+    p {
+      @include mxn.family(Satoshi, 18px, 400, 27px, white);
+      max-width: 602px;
+      text-align: left;
+      @media (max-width: 667px) {
+        margin-bottom: 90px;
+      }
+    }
+  }
+  .void__right {
+    @media (max-width: 1145px) {
+      width: 490px;
+    }
+    @media (max-width: 867px) {
+      width: 300px;
+    }
+    @media (max-width: 667px) {
+      display: none;
+    }
+  }
+}
+.catd-hand{
+@include mxn.family(Clash display,24px,400,33.6px,black);
+padding-top: 120px;
+padding-bottom: 51px;
+text-align: center;
+
+}
+.card-body {
+  h1 {
+    padding-top: 10px;
+    padding-bottom: 8px;
+     @include mxn.family(Clash Display, 20px, 400, 28px, black);
+    text-align: left;
+  }
+  p{
+    @include mxn.family(Clash display,16px,400,24px,black);
+  }
+}
+.img-siize{
+width: 100%;
+  }
